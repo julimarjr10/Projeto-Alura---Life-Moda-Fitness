@@ -1,0 +1,164 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #836a7f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#lifemoda{
+    padding: 20px 30px 0px 30px;
+    font-size: 40px;
+}
+
+
+
+main {
+    padding: 10px;
+}
+
+#nossosprodutos {
+    color: #836a7f;
+    font-size: 45px;
+    text-align: center;
+    padding: 50px;
+}
+#conjuntoazul{
+color: #413e5b;
+}
+#conjuntorosa{
+color: #b3457c;
+}
+#conjuntoverde{
+    color: #4b413b
+    ;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+.fundotema {
+    background-color: #836a7f;
+}
+
+.foto-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* Cria 4 colunas de tamanho igual */
+    gap: 20px;
+    /* Espaçamento entre os itens */
+    background-color: ;
+    padding-bottom: 70px;
+}
+
+.foto-item {
+    text-align: center;
+}
+
+/* Para centralizar verticalmente o conteúdo dentro de cada item, você pode usar: */
+.foto-item img,
+.foto-item p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.foto-item {
+    background-color: #836a7f;
+    border-radius: 20px;
+    padding: 40px;
+    color: #fffeff;
+    width: 350px;
+    height: 470px;
+}
+
+.foto-2 {
+    background-color: #caa778;
+    border-radius: 20px;
+    padding: 40px;
+    color: #fffeff;
+    width: 350px;
+    height: 470px;
+    align-items: center;
+}
+.textofoto {
+    font-size: 15px;
+    padding: 50px;
+    color: #751966;
+}
+
+.textofoto2 {
+    font-size: 15px;
+    padding-top: 120px;
+    color: #865617;
+}
+
+#historia {
+    color: #caa778;
+    font-size: 40px;
+    text-align: center;
+    padding: 60px 0px 30px 0px;
+}
+
+.textohistoria {
+    text-align: center;
+    color: #fffeff;
+    padding: 10px 35px 60px 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+
+.botao-whatsapp {
+    background-color: #46a749;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+  }
+  .botao-whatsapp {
+    @extend .button;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#conceito {
+    text-align: center;
+    font-size: 25px;
+    padding: 60px 0px 60px;
+}
+#textoconceito {
+    color: #caa778;
+}
+footer {
+    color: #fffeff;
+    height: 250px;
+    padding-top: 15px;
+}
+#fotologo{
+margin-top: 15px;    
+}
+
+.carousel-inner {
+    height: 30%; /* Ajuste o valor conforme necessário */
+  }
+  .carousel-item img {
+    height: 30%;
+    object-fit: cover; /* Mantém a proporção da imagem e preenche todo o espaço */
+  }
